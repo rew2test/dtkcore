@@ -1,0 +1,17 @@
+pullrequest_check_build:
+  steps:
+    - link_package:
+        source_project: home:rewine
+        source_package: dtkcore
+        target_project: home:rewine:test
+    - configure_repositories:
+      project: home:rewine:test
+        repositories:
+          - name: Deepin_20
+            paths:
+              - target_project: deepin:test:SRC
+                target_repository: Deepin_20
+            architectures:
+              - x86_64
+  filters:
+    event: pull_request
