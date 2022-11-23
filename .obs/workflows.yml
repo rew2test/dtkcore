@@ -9,7 +9,7 @@ pullrequest_check_build:
         repositories:
           - name: Deepin_20
             paths:
-              - target_project: deepin:test:SRC
+              - target_project: home:rewine
                 target_repository: Deepin_20
             architectures:
               - x86_64
