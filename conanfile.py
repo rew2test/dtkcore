@@ -1,18 +1,3 @@
-# SPDX-FileCopyrightText: 2022 UnionTech Software Technology Co., Ltd.
-#
-# SPDX-License-Identifier: LGPL-3.0-or-later
-
-from conans import ConanFile, tools
-
-
-class DtkcoreConan(ConanFile):
-    name = 'dtkcore'
-    version = '2.0.9'
-    license = 'GPL'
-    author = 'Iceyer me@iceyer.net'
-    url = 'https://github.com/linuxdeepin/dtkcore'
-    description = 'cross platform ui library'
-    topics = ('qt', 'dtk')
     settings = 'os', 'compiler', 'build_type', 'arch'
     options = {'shared': [True, False]}
     default_options = 'shared=False'
