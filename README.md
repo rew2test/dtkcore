@@ -1,4 +1,4 @@
-s# Deepin Tool Kit Core
+d# Deepin Tool Kit Core
 
 Deepin Tool Kit (DtkCore) is the base development tool of all C++/Qt Developer work on Deepin.
 
