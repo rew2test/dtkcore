@@ -5,7 +5,7 @@ pullrequest_check_build:
         source_package: dtkcore
         target_project: home:rewine:test
     - configure_repositories:
-      project: home:rewine:test
+        project: home:rewine:test
         repositories:
           - name: Deepin_20
             paths:
