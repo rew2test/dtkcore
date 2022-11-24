@@ -19,7 +19,7 @@ pullrequest_check_build:
 rebuild_tag:
   steps:
     - trigger_services:
-      project: home:rewine:src
+        project: home:rewine:src
         package: dtkcore
   filters:
     event: tag_push
@@ -27,7 +27,7 @@ rebuild_tag:
 rebuild_push:
   steps:
     - trigger_services:
-      project: home:rewine
+        project: home:rewine
         package: dtkcore
   filters:
     event: push
