@@ -4,7 +4,6 @@
 
 from conans import ConanFile, tools
 
-
 class DtkcoreConan(ConanFile):
     name = 'dtkcore'
     version = '2.0.9'
